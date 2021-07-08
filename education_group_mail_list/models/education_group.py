@@ -47,7 +47,6 @@ class EducationGroup(models.Model):
                 group.academic_year_id.name,
                 group.center_id.name,
                 group.display_name)
-            list_student_ids = []
             student_mail_list = mail_list_obj.search([
                 ("group_id", "=", group.id),
                 ("list_type", "=", "student")])
