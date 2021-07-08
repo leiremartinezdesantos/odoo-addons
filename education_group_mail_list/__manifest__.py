@@ -10,6 +10,7 @@
         "contacts_school",
         "mass_mailing",
         "mass_mailing_partner",
+        "mass_mailing_list_dynamic",
     ],
     "author":  "AvanzOSC",
     "license": "AGPL-3",
